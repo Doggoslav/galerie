@@ -5,7 +5,7 @@
 
 /* ── Header s gradientem ── */
 .header {
-  background: linear-gradient(160deg, #f0ece4 0%, #f7f4ef 45%, #ffffff 100%);
+  background: linear-gradient(135deg, #1a1040 0%, #2d1b69 30%, #4a2f8a 60%, #7b5ea7 85%, #ffffff 100%);
   border-bottom: 1px solid var(--border);
   padding: 5rem 2rem 4rem;
 }
@@ -28,15 +28,15 @@
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #8a7f72;
-  background: rgba(255,255,255,0.7);
-  border: 1px solid #ddd8d0;
+  color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
   padding: 0.25rem 0.7rem;
   border-radius: 2px;
 }
 
 .separator {
-  color: #c8c0b4;
+  color: rgba(255,255,255,0.3);
   font-size: 0.8rem;
 }
 
@@ -44,7 +44,7 @@
   font-family: 'DM Sans', sans-serif;
   font-size: 0.7rem;
   letter-spacing: 0.15em;
-  color: #a89f93;
+  color: rgba(255,255,255,0.5);
 }
 
 .mainTitle {
@@ -52,7 +52,7 @@
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 300;
   line-height: 1.0;
-  color: var(--text-primary);
+  color: #ffffff;
   margin-bottom: 0.6rem;
   letter-spacing: -0.01em;
 }
@@ -60,7 +60,7 @@
 .mainSubtitle {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.85rem;
-  color: var(--text-secondary);
+  color: rgba(255,255,255,0.55);
   letter-spacing: 0.04em;
 }
 
