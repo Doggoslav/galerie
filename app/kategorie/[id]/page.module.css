@@ -1,13 +1,13 @@
 .page {
   min-height: 100vh;
-  background: var(--bg);
+  background: linear-gradient(180deg, #1a1040 0%, #2d1b69 15%, #4a2f8a 30%, #7b5ea7 50%, #b89fd4 70%, #e8e0f0 85%, #f5f2f9 100%);
 }
 
 .header {
   padding: 3rem 2rem 2.5rem;
   max-width: 1100px;
   margin: 0 auto;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .backLink {
@@ -15,7 +15,7 @@
   font-size: 0.7rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.5);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -23,7 +23,7 @@
   margin-bottom: 1.5rem;
   transition: color 0.2s;
 }
-.backLink:hover { color: var(--text-primary); }
+.backLink:hover { color: rgba(255,255,255,0.9); }
 
 .headerContent {
   display: flex;
@@ -38,7 +38,7 @@
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.4);
   margin-bottom: 0.5rem;
 }
 
@@ -47,20 +47,20 @@
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 300;
   line-height: 1.1;
-  color: var(--text-primary);
+  color: #ffffff;
 }
 
 .subtitle {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.85rem;
-  color: var(--text-secondary);
+  color: rgba(255,255,255,0.55);
   margin-top: 0.5rem;
 }
 
 .count {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.75rem;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.4);
   letter-spacing: 0.05em;
 }
 
@@ -96,7 +96,7 @@
   text-align: center;
   padding: 6rem 2rem;
   font-family: 'DM Sans', sans-serif;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.5);
   font-size: 0.9rem;
 }
 .empty p:first-child {
