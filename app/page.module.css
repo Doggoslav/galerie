@@ -1,12 +1,11 @@
 .page {
   min-height: 100vh;
-  background: var(--bg);
+  background: linear-gradient(180deg, #1a1040 0%, #2d1b69 15%, #4a2f8a 30%, #7b5ea7 50%, #b89fd4 70%, #e8e0f0 85%, #f5f2f9 100%);
 }
 
 /* ── Header s gradientem ── */
 .header {
-  background: linear-gradient(135deg, #1a1040 0%, #2d1b69 30%, #4a2f8a 60%, #7b5ea7 85%, #ffffff 100%);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   padding: 5rem 2rem 4rem;
 }
 
@@ -83,14 +82,14 @@
 }
 
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(255,255,255,0.3);
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
 }
 
 .coverWrap {
